@@ -64,8 +64,9 @@ Consider a simple web form where a user needs to register by inputting their nam
 ##### Exercise
 
 Find a web form (it could be a login form, a sign-up form, a contact form, etc.) and perform the above tests. Write down the steps you took, the test results, and any issues you found.
+## Basics of Software Testing
 
-#### Importance of Software Testing (#importance-of-software-testing)
+### What is Software Testing? {#what-is-software-testing}
 
 Software testing is important because software bugs could be expensive or even dangerous. Software bugs can potentially cause monetary and human loss, and history is full of such examples.
 
@@ -77,7 +78,7 @@ In 1996, a software bug in the Ariane 5 Flight 501 caused the rocket to self-des
 
 Research another real-world example of a costly or dangerous software bug. Write a brief report detailing what the bug was, what caused it, what the consequences were, and how it could have been prevented with better software testing.
 
-#### Types of Software Testing (#types-of-software-testing)
+### Importance of Software Testing {#importance-of-software-testing}
 
 There are different stages for software testing process. The basic types of testing are: Functional Testing, Non-functional Testing, and Maintenance (Regression and Maintenance).
 
@@ -93,7 +94,7 @@ Let's consider testing for a social media application like Instagram:
 
 Pick an application you use every day. Identify and write down at least one example for each type of testing: functional, non-functional, and maintenance.
 
-#### Software Testing Life Cycle (#software-testing-life-cycle)
+### Software Testing Life Cycle {#software-testing-life-cycle}
 
 Software Testing Life Cycle (STLC) defines the steps/stages/phases in testing of software. However, there isn’t a fixed standard STLC in the world and it basically varies from one organization to another. The different stages in Software Testing Life Cycle are: Requirement Analysis, Test Planning, Test Case Development, Environment Setup, Test Execution, and Test Cycle Closure.
 
@@ -112,7 +113,7 @@ Consider the development and testing of a new feature for a web application:
 
 Think of a small feature or change you'd like to see in a software application you use regularly. Write down how you would go through each stage of the Software Testing Life Cycle for this feature or change.
 
-#### Common Software Testing Techniques（#common-software-testing-techniques)
+### Common Software Testing Techniques {#common-software-testing-techniques}
 
 Software Testing Techniques help you design better test cases. They help identify test conditions that are otherwise hard to recognize. In this course, you will learn about the most commonly used software testing techniques.
 
