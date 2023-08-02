@@ -133,7 +133,7 @@ Pick a simple software application or feature and write down how you would apply
 
 ## Update Log
 
-### Update 1 - DATE
+### Update 1 - 8-2-2023
 
 Major update to the "Basics of Software Testing" module:
 
