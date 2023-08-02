@@ -6,23 +6,21 @@ Master the skills of software testing with this comprehensive guide, designed fo
 
 ## Table of Contents
 
-1. [Basics of Software Testing](./BasicsOfSoftwareTesting)
-   1. Basics of Software Testing
+1. [Basics of Software Testing](#basics-of-software-testing)
     - [What is Software Testing?](#what-is-software-testing)
     - [Importance of Software Testing](#importance-of-software-testing)
     - [Types of Software Testing](#types-of-software-testing)
     - [Software Testing Life Cycle](#software-testing-life-cycle)
     - [Common Software Testing Techniques](#common-software-testing-techniques)
-...
-3. [Test Design Techniques](./TestDesignTechniques)
-4. [Test Management](./TestManagement)
-5. [Bug Tracking and Reporting](./BugTrackingAndReporting)
-6. [Automation Testing](./AutomationTesting)
-7. [Performance Testing](./PerformanceTesting)
-8. [Security Testing](./SecurityTesting)
-9. [Mobile Application Testing](./MobileApplicationTesting)
-10. [Continuous Integration / Continuous Deployment](./ContinuousIntegrationContinuousDeployment)
-11. [Soft Skills for Testers](./SoftSkillsForTesters)
+2. [Test Design Techniques](./TestDesignTechniques)
+3. [Test Management](./TestManagement)
+4. [Bug Tracking and Reporting](./BugTrackingAndReporting)
+5. [Automation Testing](./AutomationTesting)
+6. [Performance Testing](./PerformanceTesting)
+7. [Security Testing](./SecurityTesting)
+8. [Mobile Application Testing](./MobileApplicationTesting)
+9. [Continuous Integration / Continuous Deployment](./ContinuousIntegrationContinuousDeployment)
+10. [Soft Skills for Testers](./SoftSkillsForTesters)
 
 ## Introduction
 
