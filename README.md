@@ -12,7 +12,12 @@ Master the skills of software testing with this comprehensive guide, designed fo
     - [Types of Software Testing](#types-of-software-testing)
     - [Software Testing Life Cycle](#software-testing-life-cycle)
     - [Common Software Testing Techniques](#common-software-testing-techniques)
-2. [Test Design Techniques](./TestDesignTechniques)
+2. [Test Design Techniques](#test-design-techniques)
+   - [Black-Box Testing Techniques](#black-box-testing-techniques)
+   - [White-Box Testing Techniques](#white-box-testing-techniques)
+   - [Grey-Box Testing Techniques](#grey-box-testing-techniques)
+   - [Static vs Dynamic Testing](#static-vs-dynamic-testing)
+   - [Manual vs Automated Testing](#manual-vs-automated-testing)
 3. [Test Management](./TestManagement)
 4. [Bug Tracking and Reporting](./BugTrackingAndReporting)
 5. [Automation Testing](./AutomationTesting)
@@ -130,7 +135,105 @@ Suppose you're testing a simple calculator application. Some testing techniques 
 Pick a simple software application or feature and write down how you would apply each of the above testing techniques.
 
 ---
+Black-Box Testing Techniques
 
+Black-box testing is a method of testing where the tester doesn't know the internal workings of the system. Testers only focus on the input and the output, not how the application processes data. Black-box testing primarily focuses on the functionality of the system.
+
+Example
+Let's consider a simple web form where a user needs to register by inputting their name, email, and password. In black-box testing, you would only test the functionality, such as checking if a user can successfully register with valid inputs, or if the form correctly rejects invalid inputs (such as a malformed email or a too-short password).
+
+Exercise
+Find a web form (it could be a login form, a sign-up form, a contact form, etc.) and perform black-box testing. Write down the steps you took, the test results, and any issues you found.
+
+White-Box Testing Techniques
+
+White-box testing is a method of testing where the tester knows the internal structure and implementation of the system. White-box testing primarily focuses on testing the program structure and internal paths.
+
+Example
+Consider a function in a program that calculates the factorial of a number. In white-box testing, you would test the function by providing various inputs and checking if the outputs are correct. You would also inspect the code to ensure that it correctly calculates the factorial and that there are no logical errors.
+
+Exercise
+Find a simple function or method in a program and perform white-box testing. Write down the steps you took, the test results, and any issues you found.
+
+Grey-Box Testing Techniques
+
+Grey-box testing is a method of testing that is a blend of black-box and white-box testing. In grey-box testing, the tester has partial knowledge about the internal structure of the system.
+
+Example
+Consider a web application that you are testing. You have access to the database schema, but not the actual code of the application. You could perform grey-box testing by using the database schema to create tests that ensure data integrity, while also testing the functionality of the application as in black-box testing.
+
+Exercise
+Think of a scenario where you could perform grey-box testing. Describe the scenario, what you would test, and how you would test it.
+
+Static vs Dynamic Testing
+
+Static testing and dynamic testing are two different methods of testing. Static testing primarily focuses on the static structure of the program, such as code reviews or static code analysis. Dynamic testing focuses on the behavior of the program during runtime.
+
+Example
+Consider a program that you are developing. You could perform static testing by doing a code review and using a static code analysis tool like SonarQube. You could then perform dynamic testing by running the program and providing various inputs to check if the outputs are correct.
+
+Exercise
+Find a program or codebase and perform both static and dynamic testing. Write down the steps you took, the test results, and any issues you found.
+
+Manual vs Automated Testing
+
+Manual testing and automated testing are two different methods of testing. Manual testing requires human effort, whereas automated testing uses tools or scripts to execute tests.
+
+Example
+Consider a web application that you are testing. You could perform manual testing by manually interacting with the application and checking if it behaves as expected. You could then perform automated testing by writing and running automated test scripts using a tool like Selenium.
+
+Exercise
+Think of a scenario where you could perform both manual and automated testing. Describe the scenario, what you would test, and how you would test it.
+
+Black-Box Testing Techniques
+
+Black-box testing is a method of testing where the tester doesn't know the internal workings of the system. Testers only focus on the input and the output, not how the application processes data. Black-box testing primarily focuses on the functionality of the system.
+
+Example
+Let's consider a simple web form where a user needs to register by inputting their name, email, and password. In black-box testing, you would only test the functionality, such as checking if a user can successfully register with valid inputs, or if the form correctly rejects invalid inputs (such as a malformed email or a too-short password).
+
+Exercise
+Find a web form (it could be a login form, a sign-up form, a contact form, etc.) and perform black-box testing. Write down the steps you took, the test results, and any issues you found.
+
+White-Box Testing Techniques
+
+White-box testing is a method of testing where the tester knows the internal structure and implementation of the system. White-box testing primarily focuses on testing the program structure and internal paths.
+
+Example
+Consider a function in a program that calculates the factorial of a number. In white-box testing, you would test the function by providing various inputs and checking if the outputs are correct. You would also inspect the code to ensure that it correctly calculates the factorial and that there are no logical errors.
+
+Exercise
+Find a simple function or method in a program and perform white-box testing. Write down the steps you took, the test results, and any issues you found.
+
+Grey-Box Testing Techniques
+
+Grey-box testing is a method of testing that is a blend of black-box and white-box testing. In grey-box testing, the tester has partial knowledge about the internal structure of the system.
+
+Example
+Consider a web application that you are testing. You have access to the database schema, but not the actual code of the application. You could perform grey-box testing by using the database schema to create tests that ensure data integrity, while also testing the functionality of the application as in black-box testing.
+
+Exercise
+Think of a scenario where you could perform grey-box testing. Describe the scenario, what you would test, and how you would test it.
+
+Static vs Dynamic Testing
+
+Static testing and dynamic testing are two different methods of testing. Static testing primarily focuses on the static structure of the program, such as code reviews or static code analysis. Dynamic testing focuses on the behavior of the program during runtime.
+
+Example
+Consider a program that you are developing. You could perform static testing by doing a code review and using a static code analysis tool like SonarQube. You could then perform dynamic testing by running the program and providing various inputs to check if the outputs are correct.
+
+Exercise
+Find a program or codebase and perform both static and dynamic testing. Write down the steps you took, the test results, and any issues you found.
+
+Manual vs Automated Testing
+
+Manual testing and automated testing are two different methods of testing. Manual testing requires human effort, whereas automated testing uses tools or scripts to execute tests.
+
+Example
+Consider a web application that you are testing. You could perform manual testing by manually interacting with the application and checking if it behaves as expected. You could then perform automated testing by writing and running automated test scripts using a tool like Selenium.
+
+Exercise
+Think of a scenario where you could perform both manual and automated testing. Describe the scenario, what you would test, and how you would test it.
 ## Update Log
 
 ### Update 1 - 8-2-2023
@@ -138,6 +241,19 @@ Pick a simple software application or feature and write down how you would apply
 Major update to the "Basics of Software Testing" module:
 
 - Added detailed content for each of the five sub-courses: "What is Software Testing?", "Importance of Software Testing", "Types of Software Testing", "Software Testing Life Cycle", and "Common Software Testing Techniques".
+- Each sub-course now includes an example and an exercise to help learners better understand the content and practice their learning.
+- Added internal links in the "Table of Contents" section for easier navigation.
+
+---
+---
+
+## Update Log
+
+### Update 2 - 8-3-2023
+
+Major update to the "Test Design Techniques" module:
+
+- Added detailed content for each of the five sub-courses: "Black-Box Testing Techniques", "White-Box Testing Techniques", "Grey-Box Testing Techniques", "Static vs Dynamic Testing", and "Manual vs Automated Testing".
 - Each sub-course now includes an example and an exercise to help learners better understand the content and practice their learning.
 - Added internal links in the "Table of Contents" section for easier navigation.
 
