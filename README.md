@@ -135,9 +135,9 @@ Suppose you're testing a simple calculator application. Some testing techniques 
 Pick a simple software application or feature and write down how you would apply each of the above testing techniques.
 
 ---
-## Test Design Techniques {#test-design-techniques}
+## Test Design Techniques 
 
-### Black-Box Testing Techniques {#black-box-testing-techniques}
+### Black-Box Testing Techniques 
 
 Black-box testing is a method of testing where the tester doesn't know the internal workings of the system. Testers only focus on the input and the output, not how the application processes data. Black-box testing primarily focuses on the functionality of the system.
 
@@ -147,7 +147,7 @@ Let's consider a simple web form where a user needs to register by inputting the
 Exercise
 Find a web form (it could be a login form, a sign-up form, a contact form, etc.) and perform black-box testing. Write down the steps you took, the test results, and any issues you found.
 
-### White-Box Testing Techniques {#white-box-testing-techniques}
+### White-Box Testing Techniques 
 
 White-box testing is a method of testing where the tester knows the internal structure and implementation of the system. White-box testing primarily focuses on testing the program structure and internal paths.
 
@@ -157,7 +157,7 @@ Consider a function in a program that calculates the factorial of a number. In w
 Exercise
 Find a simple function or method in a program and perform white-box testing. Write down the steps you took, the test results, and any issues you found.
 
-### Grey-Box Testing Techniques {#grey-box-testing-techniques}
+### Grey-Box Testing Techniques 
 
 Grey-box testing is a method of testing that is a blend of black-box and white-box testing. In grey-box testing, the tester has partial knowledge about the internal structure of the system.
 
@@ -167,7 +167,7 @@ Consider a web application that you are testing. You have access to the database
 Exercise
 Think of a scenario where you could perform grey-box testing. Describe the scenario, what you would test, and how you would test it.
 
-### Static vs Dynamic Testing {#static-vs-dynamic-testing}
+### Static vs Dynamic Testing 
 
 Static testing and dynamic testing are two different methods of testing. Static testing primarily focuses on the static structure of the program, such as code reviews or static code analysis. Dynamic testing focuses on the behavior of the program during runtime.
 
@@ -177,7 +177,7 @@ Consider a program that you are developing. You could perform static testing by 
 Exercise
 Find a program or codebase and perform both static and dynamic testing. Write down the steps you took, the test results, and any issues you found.
 
-### Manual vs Automated Testing {#manual-vs-automated-testing}
+### Manual vs Automated Testing
 
 Manual testing and automated testing are two different methods of testing. Manual testing requires human effort, whereas automated testing uses tools or scripts to execute tests.
 
